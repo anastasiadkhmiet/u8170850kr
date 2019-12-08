@@ -21,9 +21,10 @@ div
 }
 header
 {
-background-color: #1a0000;
-height: 80px;
-width: 100%;
+	background-color: #1a0000;
+	height: 80px;
+	width: 100%;
+	margin: 0 auto;
 }
 .logo
 {
@@ -33,27 +34,30 @@ width: 100%;
 }
 nav
 {
-	float: right;
 	margin-top: 31px;
+	background-color: #000000;
+	width: 1366px;
 }
+
 .mmenu
 {
 	padding: 0;
 	margin: 0;
 	display: block;
+	margin-right: 20px;
 }
 .mmenu li
 {
-	float: left;
+	float: right;
 	display: block;
-	margin-right: 80px;
+	margin-right: 50px;
 }
 .mmenu li a
 {
-	color: #fff;
+	color: #ffffff;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-size: 18px;
+	font-size: 16px;
 }
 footer
 {
@@ -70,6 +74,7 @@ footer
 {
 	color: #ffffff;
 	text-align: center;
-	font-size: 16px;
-	margin-top: 24px;
+	font-size: 12px;
+	margin-top: 34px;
 }
+
